@@ -42,7 +42,6 @@ node('master')   {
                     //sh "${scriptRunner}"
                   //sh "sshpass -p ${dpPWD} ssh -o StrictHostKeyChecking=no ec2-user@13.127.81.47 ${dockerRun}"
                     //sh "${dockerRun}"
-                  sh "sudo kubectl apply -f app.yaml"
                     
             }
             
